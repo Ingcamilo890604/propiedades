@@ -1,6 +1,6 @@
 package com.prueba.propiedades.dto;
 
-import com.prueba.propiedades.Entity.Property;
+import com.prueba.propiedades.entity.Property;
 import lombok.Data;
 
 import java.util.List;

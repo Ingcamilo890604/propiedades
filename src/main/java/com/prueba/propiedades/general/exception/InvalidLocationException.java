@@ -1,4 +1,4 @@
-package com.prueba.propiedades.General.exception;
+package com.prueba.propiedades.general.exception;
 
 import org.springframework.http.HttpStatus;
 

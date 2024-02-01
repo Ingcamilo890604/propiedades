@@ -1,6 +1,6 @@
-package com.prueba.propiedades.Repositories;
+package com.prueba.propiedades.repositories;
 
-import com.prueba.propiedades.Entity.Property;
+import com.prueba.propiedades.entity.Property;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

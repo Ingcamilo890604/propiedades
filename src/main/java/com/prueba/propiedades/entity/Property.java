@@ -1,4 +1,4 @@
-package com.prueba.propiedades.Entity;
+package com.prueba.propiedades.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

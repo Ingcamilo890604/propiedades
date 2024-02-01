@@ -1,14 +1,12 @@
-package com.prueba.propiedades.General.exception;
-
+package com.prueba.propiedades.general.exception;
 import org.springframework.http.HttpStatus;
-
 import java.time.LocalDateTime;
 
-public class DuplicatePropertyException extends RuntimeException {
+public class InvalidPriceException extends RuntimeException {
     private final HttpStatus httpStatus;
     private final LocalDateTime timestamp;
 
-    public DuplicatePropertyException(String message) {
+    public InvalidPriceException(String message) {
         super(message);
         this.httpStatus = HttpStatus.BAD_REQUEST;
         this.timestamp = LocalDateTime.now();
@@ -22,3 +20,4 @@ public class DuplicatePropertyException extends RuntimeException {
         return timestamp;
     }
 }
+
